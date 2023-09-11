@@ -6,6 +6,7 @@ Created Repo - To upload and fetch programs !
 **1. Create a Java program to accept 10 numbers from user, store in an array. Find the
 second largest and second smallest number from it. Use Scanner class to accept input
 from user.**
+\n
 Source Code :- 
 
 //
