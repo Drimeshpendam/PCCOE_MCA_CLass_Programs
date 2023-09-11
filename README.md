@@ -7,6 +7,8 @@ Created Repo - To upload and fetch programs !
 second largest and second smallest number from it. Use Scanner class to accept input
 from user.**
 Source Code :- 
+
+//
 import java.util.Scanner;
 
 public class Second_Largest_Smallest {
@@ -56,7 +58,7 @@ public class Second_Largest_Smallest {
 **3. Create a Java program to accept number of strings from user and sort them in
 alphabetical order. Use String class to store accepted string from user.**
 Source Code :- 
-
+//
 import java.util.Scanner;
 
 public class StringSorting {
@@ -101,7 +103,7 @@ public class StringSorting {
 the numbers. Use Scanner class to accept two numbers from user.**
 
 Source Code :- 
-
+//
 import java.util.Scanner;
 
 public class GCDLCMCalculator {
