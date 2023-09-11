@@ -54,6 +54,8 @@ public class Second_Largest_Smallest {
         System.out.println("Second Smallest Number: " + secondSmallest);
     }
 }
+Output :- 
+![image](https://github.com/Drimeshpendam/PCCOE_MCA_CLass_Programs/assets/69688465/3fdcc332-89ac-4a2e-9fb3-5ddf035cdba9)
 
 **3. Create a Java program to accept number of strings from user and sort them in
 alphabetical order. Use String class to store accepted string from user.**
@@ -99,6 +101,9 @@ public class StringSorting {
     }
 }
 
+Output:-
+![image](https://github.com/Drimeshpendam/PCCOE_MCA_CLass_Programs/assets/69688465/5b481e56-34ad-436c-98e8-c9e52bd9cade)
+
 **5. Create a Java program to accept two numbers from user, find GCD and LCM of both
 the numbers. Use Scanner class to accept two numbers from user.**
 
@@ -136,3 +141,9 @@ public class GCDLCMCalculator {
         return findGCD(b, a % b);
     }
 }
+
+Output : - 
+![image](https://github.com/Drimeshpendam/PCCOE_MCA_CLass_Programs/assets/69688465/b0134743-2d65-4f69-b6c3-c057ef47315e)
+
+
+
