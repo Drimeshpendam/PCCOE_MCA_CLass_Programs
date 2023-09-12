@@ -1,0 +1,22 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.navbar{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding: 0px 20px;
+    margin: 10px 30px;
+}
+.Hero_lander{
+    display: inline-block;
+    
+}
