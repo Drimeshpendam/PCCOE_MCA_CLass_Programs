@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - 1 | Create Account </title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        body{
+            background-color:rgb(36, 86, 129);
+            padding:120px;
+        }  
+        .frm{
+            background-color: rgb(185, 186, 200);
+            border:solid white 1px;
+            border-radius: 1.5%;
+            height:650px;
+        }
+        h1 , h3 {
+            color: rgb(49, 48, 47);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: normal;
+
+        }
+        .header > h1 {
+            text-align: center;
+        }
+        .footer{
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <!--Outer Space-->
+   <div class="frm">
+    <!--Inner Space-->
+        <form action="" method="POST"> 
+            
+            <!--Header Section-->
+            <div class="header">
+                <h1>Create Account</h1>
+            </div>
+            <!--Body Section-->
+            <div>
+                <lable>First Name <span>*</span></lable>
+                <input type="text" name="first_name">
+                <lable>Last Name <span>*</span></lable>
+                <input type="text" name="first_name">
+                <lable>Email Name <span>*</span></lable>
+                <input type="email" name="first_name">
+                <lable>Password <span>*</span></lable>
+                <input type="password" name="first_name">
+                <lable>Confirm Password<span>*</span></lable>
+                <input type="password" name="first_name">
+                <lable>Gender<span>*</span></lable>
+                <input type="radio" name="first_name">Male
+                <input type="radio" name="first_name">Female
+                <lable>Hobbies<span>*</span></lable>
+                <input type="checkbox" name="first_name" checked> Music
+                <input type="checkbox" name="first_name"> Sports
+                <input type="checkbox" name="first_name"> Travel
+                <input type="checkbox" name="first_name"> Movies
+                <lable>Source Of Income<span>*</span></lable>
+                <select>
+                    <option name="source" value="employed">Employed</option>
+                    <option name="source" value="unemployed">Unemployed</option>
+                    <option name="source" value="Self - employed">Self - employed</option>
+                </select>
+                <lable>Income<span>*</span></lable>
+                <input type="text" name="first_name">
+                <lable>Upload Profile Picture<span>*</span></lable>
+                <input type="file" name="first_name">
+                <lable>Age<span>*</span></lable>
+                <input type="range" name="age" min="0" max="65">
+                <lable>Bio<span>*</span></lable>
+                <textarea></textarea>
+                <input type="submit" value="Create" name="submit">
+            </div>
+            <!--Footer Section-->
+            <div class="footer">
+                <h3>@Copyright - Made With &hearts; Drimesh Pendam </h3>
+            </div>
+        
+    </form>
+</div>
+
+</body>
+</html>
