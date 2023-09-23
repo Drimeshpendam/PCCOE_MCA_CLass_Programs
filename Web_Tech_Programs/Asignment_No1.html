@@ -4,9 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title></title>
+    <title>Assignment No . 1 </title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main-div{
+            background-color: aqua;                  
+            width:100%;            
+        }
+        .inside_box1{
+            width:48%;
+            float:left;
+            
+            height: 350px;
+            padding-left: 35px;
+            padding-top: 18px;
+            border-right: solid 3px black;
+            
+        }
+        
+        .inside_box2{
+            width: 48%;
+            float: right;            
+            padding-left: 20px;
+            padding-top: 18px;
+            height: 350px;            
+        }
+        .ft{
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 20px;
+            line-height: 1cm;
+        }
+        
+        .logo {
+            font-size: 18px; /* Adjust the font size as needed */
+            font-weight: bold;
+            color: #gold; /* Set your text color */
+            float: :right;
+        }
+
+        .uof {
+            color: blueviolet;
+            display: inline-block;
+        }
+        .w{
+            color: blueviolet;
+            font-size: 64px;
+            display: inline-block;
+        }
+        form{
+            width:100%;
+        }
+        label{
+            width: 100%;
+        }
+        input{
+            width: 90%;
+            font-size: 18px;
+        }
+        
+        
+        
+    </style>
 </head>
 <body>
+    <div class="main-div"> 
+        <div class="inside_box1">
+            <div class="logo">
+                <span class="w">W</span>
+                <span class="uof">University <i>of</i><br>Washington</span>
+                <br>
+            </div>
+            <div>
+                <h3>Please Sign In </h3>
+                <br>
+            </div>
+
+            <div>
+                <form>
+                    <label>UW NetID</label><br>
+                    <input type="text" name="user-name" placeholder="Please Enter Your Name "><br><br>
+                    <label>Password</label><br>
+                    <input type="password" name="password" placeholder="Please Enter Password "><br><br>
+                    <a href="#">Forgot Password ? </a><br><br>
+                    <input type="submit" name="submit" value="Sign In "><br><br><br>
+                </form>
+            </div>           
+        </div>
+        <div class="inside_box2">
+            <a href="#">Learn About Recovery option</a><br>
+            <a href="#">Learn About UW NetIDs</a><br>
+            <a href="#">Learn About UW NetIDs Signin</a><br>
+            <a href="#">Obtain a UW NetIDs</a><br>
+            <br>
+            <a href="#">Need help ?</a>
+        </div>
+    </div>
+    <div class="ft">
+        <p>Sign in reduces how often you have to reauthenticate to access UW resources<br>
+        Learn how to <a href="#" >Sign Out</a> at the end of your browsing session <br>
+        <p><a href="#">Privacy</a> | <a href="#">Terms</a></p>
+    </div>
     
 </body>
 </html>
