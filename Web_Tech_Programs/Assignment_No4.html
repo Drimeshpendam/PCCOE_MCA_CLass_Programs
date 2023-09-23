@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            color: red;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .right-corner {
+            color: red;
+            float: right;
+        }
+
+        .second-heading {
+            color: black;
+            font-size: 20px;
+        }
+
+        .calendar {
+            float: right;
+            width: 45%;
+            margin: 10px;
+            border-bottom: 1px solid #000;
+        }
+
+        .paragraph {
+            display: flex;
+            align-items: center;
+        }
+
+        .image-container {
+           flex: 1;
+           margin-right: 20px; /* Adjust the margin as needed */
+        }
+
+        .image {
+           max-width: 100%;
+           height: auto;
+        }
+
+        .text {
+           flex: 2;
+        }
+
+    </style>
 </head>
 <body>
+    <div class="header">Stanford Performing Arts</div>
+    <div class="right-corner">Autumn 2012 Edition</div>
+    <div class="second-heading"><strong>Bing Concert Hall</strong></div>
+
+    <div class="calendar">
+        <strong>Calendar</strong>
+        <p>Harmony for Humanity: Daniel Pearl Stanford will play a 
+         vital role World Music Concert.</p>
+        <hr />
+        <p>Sundays with the St. Lawrence String Quartet.</p>
+        <hr />
+        <p>Merce Cunningham Dance Company.</p>
+        <hr />
+        <p>Juilliard String Quartet.</p>
+    </div>
+
+    <div class="paragraph">
+    <div class="image-container">
+        <img class="image" src="https://media.istockphoto.com/id/147332504/photo/a-large-concert-hall-all-lit-up.jpg?s=612x612&w=0&k=20&c=rrf87HgC17Dw7Xwp415NCxvLlJg1Lxf38sMnk7Vhupg=" alt="Concert Hall Image">
+    </div>
+    <div class="text">
+        <p>The Bing Concert Hall at Stanford will play a vital role on campus and in
+        the local community. The hall's exceptional acoustics and 
+        state-of-the-art technical capabilities will showcase the world's finest performers. 
+        The hall is scheduled to open early in 2013. The concert hall will have 844 seats in an intimate vineyard-style configuration, 
+        with terraced sections wrapping all the way around the stage.</p>
+    </div>
+</div>
+
+   
+
     
 </body>
 </html>

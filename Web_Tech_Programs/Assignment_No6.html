@@ -5,3 +5,144 @@ each):
  Transition
  Animation -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Boxes</title>
+    <style>
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(to bottom right, #ff9900, #ff33cc);
+            margin: 20px;
+            border: 1px solid #333;
+            display: inline-block;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(to bottom left, #3399ff, #33cc33);
+            margin: 20px;
+            border: 1px solid #333;
+            display: inline-block;
+        }
+        .transformed-box {
+            width: 100px;
+            height: 100px;
+            background-color: #ff9900;
+            transform: translate(50px, 20px);
+            margin: 50px;
+        }
+        .rotated-box {
+            width: 100px;
+            height: 100px;
+            background-color: #3399ff;
+            transform: rotate(45deg);
+        }
+        .transition-box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            text-align: center;
+            line-height: 100px;
+            transition: all 0.5s ease-in-out;
+            background-color: #b75ea1;
+        }
+        
+        .width-transition:hover {
+            width: 200px;
+        }
+
+        
+        .height-transition:hover {
+            height: 200px;
+        }
+        .color-transition:hover {
+            background-color: #3399ff;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in-animation {
+            width: 100px;
+            height: 100px;
+            background-color: #ff9900;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .bounce-animation {
+            width: 100px;
+            height: 100px;
+            background-color: #3399ff;
+            animation: bounce 1s ease-in-out infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .rotate-animation {
+            width: 100px;
+            height: 100px;
+            background-color: #33cc33;
+            animation: rotate 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <h1>Different types of Gradients</h1>
+    <div class="box1"></div>
+    <div class="box2"></div>
+   </div>
+
+   <div>
+    <h1>Different types of Tranformation</h1>
+    <div style="display: inline-block;">
+        <div class="transformed-box" ></div>
+        <div class="rotated-box"></div>
+    </div>    
+   </div>
+
+   <div>
+    <h1>Different types of Transition</h1>
+    <div style="display: inline-block;">
+        <div class="transition-box width-transition">Width</div>
+    <div class="transition-box height-transition">Height</div>
+    </div>    
+   </div>
+
+   <div>
+    <h1>Diffrent type of animation</h1>
+    <div class="fade-in-animation"></div>
+    <div class="bounce-animation"></div>
+    <div class="rotate-animation"></div>
+   </div>
+
+
+</body>
+</html>
